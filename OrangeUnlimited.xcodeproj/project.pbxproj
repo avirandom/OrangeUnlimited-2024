@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D7B573E2C42F14F00D267AB /* OrangeUnlimitedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7B573D2C42F14F00D267AB /* OrangeUnlimitedApp.swift */; };
+		2D7B57402C42F14F00D267AB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7B573F2C42F14F00D267AB /* ContentView.swift */; };
+		2D7B57422C42F15200D267AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D7B57412C42F15200D267AB /* Assets.xcassets */; };
+		2D7B57462C42F15200D267AB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D7B57452C42F15200D267AB /* Preview Assets.xcassets */; };
+		2D7B57502C42F15300D267AB /* OrangeUnlimitedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7B574F2C42F15300D267AB /* OrangeUnlimitedTests.swift */; };
+		2D7B575A2C42F15300D267AB /* OrangeUnlimitedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7B57592C42F15300D267AB /* OrangeUnlimitedUITests.swift */; };
+		2D7B575C2C42F15300D267AB /* OrangeUnlimitedUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7B575B2C42F15300D267AB /* OrangeUnlimitedUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D7B574C2C42F15300D267AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D7B57322C42F14F00D267AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D7B57392C42F14F00D267AB;
+			remoteInfo = OrangeUnlimited;
+		};
+		2D7B57562C42F15300D267AB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D7B57322C42F14F00D267AB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D7B57392C42F14F00D267AB;
+			remoteInfo = OrangeUnlimited;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D7B573A2C42F14F00D267AB /* OrangeUnlimited.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrangeUnlimited.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D7B573D2C42F14F00D267AB /* OrangeUnlimitedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeUnlimitedApp.swift; sourceTree = "<group>"; };
+		2D7B573F2C42F14F00D267AB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D7B57412C42F15200D267AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D7B57432C42F15200D267AB /* OrangeUnlimited.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OrangeUnlimited.entitlements; sourceTree = "<group>"; };
+		2D7B57452C42F15200D267AB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D7B574B2C42F15300D267AB /* OrangeUnlimitedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrangeUnlimitedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D7B574F2C42F15300D267AB /* OrangeUnlimitedTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeUnlimitedTests.swift; sourceTree = "<group>"; };
+		2D7B57552C42F15300D267AB /* OrangeUnlimitedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrangeUnlimitedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D7B57592C42F15300D267AB /* OrangeUnlimitedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeUnlimitedUITests.swift; sourceTree = "<group>"; };
+		2D7B575B2C42F15300D267AB /* OrangeUnlimitedUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeUnlimitedUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D7B57372C42F14F00D267AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D7B57482C42F15300D267AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D7B57522C42F15300D267AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D7B57312C42F14F00D267AB = {
+			isa = PBXGroup;
+			children = (
+				2D7B573C2C42F14F00D267AB /* OrangeUnlimited */,
+				2D7B574E2C42F15300D267AB /* OrangeUnlimitedTests */,
+				2D7B57582C42F15300D267AB /* OrangeUnlimitedUITests */,
+				2D7B573B2C42F14F00D267AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D7B573B2C42F14F00D267AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D7B573A2C42F14F00D267AB /* OrangeUnlimited.app */,
+				2D7B574B2C42F15300D267AB /* OrangeUnlimitedTests.xctest */,
+				2D7B57552C42F15300D267AB /* OrangeUnlimitedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D7B573C2C42F14F00D267AB /* OrangeUnlimited */ = {
+			isa = PBXGroup;
+			children = (
+				2D7B573D2C42F14F00D267AB /* OrangeUnlimitedApp.swift */,
+				2D7B573F2C42F14F00D267AB /* ContentView.swift */,
+				2D7B57412C42F15200D267AB /* Assets.xcassets */,
+				2D7B57432C42F15200D267AB /* OrangeUnlimited.entitlements */,
+				2D7B57442C42F15200D267AB /* Preview Content */,
+			);
+			path = OrangeUnlimited;
+			sourceTree = "<group>";
+		};
+		2D7B57442C42F15200D267AB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2D7B57452C42F15200D267AB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D7B574E2C42F15300D267AB /* OrangeUnlimitedTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D7B574F2C42F15300D267AB /* OrangeUnlimitedTests.swift */,
+			);
+			path = OrangeUnlimitedTests;
+			sourceTree = "<group>";
+		};
+		2D7B57582C42F15300D267AB /* OrangeUnlimitedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D7B57592C42F15300D267AB /* OrangeUnlimitedUITests.swift */,
+				2D7B575B2C42F15300D267AB /* OrangeUnlimitedUITestsLaunchTests.swift */,
+			);
+			path = OrangeUnlimitedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D7B57392C42F14F00D267AB /* OrangeUnlimited */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D7B575F2C42F15300D267AB /* Build configuration list for PBXNativeTarget "OrangeUnlimited" */;
+			buildPhases = (
+				2D7B57362C42F14F00D267AB /* Sources */,
+				2D7B57372C42F14F00D267AB /* Frameworks */,
+				2D7B57382C42F14F00D267AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OrangeUnlimited;
+			productName = OrangeUnlimited;
+			productReference = 2D7B573A2C42F14F00D267AB /* OrangeUnlimited.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D7B574A2C42F15300D267AB /* OrangeUnlimitedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D7B57622C42F15300D267AB /* Build configuration list for PBXNativeTarget "OrangeUnlimitedTests" */;
+			buildPhases = (
+				2D7B57472C42F15300D267AB /* Sources */,
+				2D7B57482C42F15300D267AB /* Frameworks */,
+				2D7B57492C42F15300D267AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D7B574D2C42F15300D267AB /* PBXTargetDependency */,
+			);
+			name = OrangeUnlimitedTests;
+			productName = OrangeUnlimitedTests;
+			productReference = 2D7B574B2C42F15300D267AB /* OrangeUnlimitedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D7B57542C42F15300D267AB /* OrangeUnlimitedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D7B57652C42F15300D267AB /* Build configuration list for PBXNativeTarget "OrangeUnlimitedUITests" */;
+			buildPhases = (
+				2D7B57512C42F15300D267AB /* Sources */,
+				2D7B57522C42F15300D267AB /* Frameworks */,
+				2D7B57532C42F15300D267AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D7B57572C42F15300D267AB /* PBXTargetDependency */,
+			);
+			name = OrangeUnlimitedUITests;
+			productName = OrangeUnlimitedUITests;
+			productReference = 2D7B57552C42F15300D267AB /* OrangeUnlimitedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D7B57322C42F14F00D267AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2D7B57392C42F14F00D267AB = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					2D7B574A2C42F15300D267AB = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 2D7B57392C42F14F00D267AB;
+					};
+					2D7B57542C42F15300D267AB = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 2D7B57392C42F14F00D267AB;
+					};
+				};
+			};
+			buildConfigurationList = 2D7B57352C42F14F00D267AB /* Build configuration list for PBXProject "OrangeUnlimited" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D7B57312C42F14F00D267AB;
+			productRefGroup = 2D7B573B2C42F14F00D267AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D7B57392C42F14F00D267AB /* OrangeUnlimited */,
+				2D7B574A2C42F15300D267AB /* OrangeUnlimitedTests */,
+				2D7B57542C42F15300D267AB /* OrangeUnlimitedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D7B57382C42F14F00D267AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D7B57462C42F15200D267AB /* Preview Assets.xcassets in Resources */,
+				2D7B57422C42F15200D267AB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D7B57492C42F15300D267AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D7B57532C42F15300D267AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D7B57362C42F14F00D267AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D7B57402C42F14F00D267AB /* ContentView.swift in Sources */,
+				2D7B573E2C42F14F00D267AB /* OrangeUnlimitedApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D7B57472C42F15300D267AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D7B57502C42F15300D267AB /* OrangeUnlimitedTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D7B57512C42F15300D267AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D7B575C2C42F15300D267AB /* OrangeUnlimitedUITestsLaunchTests.swift in Sources */,
+				2D7B575A2C42F15300D267AB /* OrangeUnlimitedUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D7B574D2C42F15300D267AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D7B57392C42F14F00D267AB /* OrangeUnlimited */;
+			targetProxy = 2D7B574C2C42F15300D267AB /* PBXContainerItemProxy */;
+		};
+		2D7B57572C42F15300D267AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D7B57392C42F14F00D267AB /* OrangeUnlimited */;
+			targetProxy = 2D7B57562C42F15300D267AB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D7B575D2C42F15300D267AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D7B575E2C42F15300D267AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		2D7B57602C42F15300D267AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OrangeUnlimited/OrangeUnlimited.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OrangeUnlimited/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.OrangeUnlimited;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D7B57612C42F15300D267AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = OrangeUnlimited/OrangeUnlimited.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OrangeUnlimited/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.OrangeUnlimited;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D7B57632C42F15300D267AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.OrangeUnlimitedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrangeUnlimited.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OrangeUnlimited";
+			};
+			name = Debug;
+		};
+		2D7B57642C42F15300D267AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.OrangeUnlimitedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OrangeUnlimited.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OrangeUnlimited";
+			};
+			name = Release;
+		};
+		2D7B57662C42F15300D267AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.OrangeUnlimitedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OrangeUnlimited;
+			};
+			name = Debug;
+		};
+		2D7B57672C42F15300D267AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.none.OrangeUnlimitedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OrangeUnlimited;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D7B57352C42F14F00D267AB /* Build configuration list for PBXProject "OrangeUnlimited" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D7B575D2C42F15300D267AB /* Debug */,
+				2D7B575E2C42F15300D267AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D7B575F2C42F15300D267AB /* Build configuration list for PBXNativeTarget "OrangeUnlimited" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D7B57602C42F15300D267AB /* Debug */,
+				2D7B57612C42F15300D267AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D7B57622C42F15300D267AB /* Build configuration list for PBXNativeTarget "OrangeUnlimitedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D7B57632C42F15300D267AB /* Debug */,
+				2D7B57642C42F15300D267AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D7B57652C42F15300D267AB /* Build configuration list for PBXNativeTarget "OrangeUnlimitedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D7B57662C42F15300D267AB /* Debug */,
+				2D7B57672C42F15300D267AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D7B57322C42F14F00D267AB /* Project object */;
+}
